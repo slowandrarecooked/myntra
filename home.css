@@ -1,0 +1,113 @@
+@import url(@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400');
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+input{
+    width:400px;
+    margin-top:30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight:500;
+}
+.pwb{
+    display:flex;
+    column-gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+   
+}
+.pwb>div>img{
+    width: 20px;
+    height: 20px;
+}
+.pwbinside
+{
+    display:flex;
+    flex-direction: column;
+    
+}
+.pwbinside>a>p{
+    font-size: smaller;
+    font-weight: 600;
+}
+.big{
+    margin-left:50px;
+    margin-top:50px;
+}
+.fantadeals{
+    text-align: center;
+    
+}
+.fantadeals>h1{
+    color: white;
+    background-color: red;
+    width: 500px;
+    margin: auto;
+}
+.fantadeals>p{
+    color: red;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 600;
+}
+.fantadeals>button{
+    background-color:#FCBB48;
+    color: red;
+    width: 150px;
+    height: 50px;
+    font-size:20px;
+    font-weight:600;
+    margin-top:-10px;
+}
+.categ{
+    color:white;
+    background-color: red;
+    width:500px;
+    margin-left:690px;
+    text-align: center;
+}
+.catpic{
+    border: 10px solid red;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.category{
+    display: flex;
+    flex-flow:row wrap;
+    gap:40px;
+    align-items: center;
+    justify-content:center;
+}
+footer>div:first-of-type{
+    display: flex;
+    align-items:flex-start;
+    justify-content:center;
+    gap:20px;
+}
+li{
+   list-style:none;
+   color:grey ;
+}
+footer>div:nth-child(2){
+    margin:auto;
+    width:1000px;
+    color: grey;
+}
+footer>div:nth-child(2)>p:first-of-type{
+    color: black;
+}
+footer>div:last-of-type{
+    text-align: center;
+}
